@@ -25,6 +25,12 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script type="text/babel">
+    var example_vars = {
+        api_root:"<?php echo get_bloginfo("url")."/wp-json/wp/v2";?>",
+        root:"/bellaworks/wob/"
+    };
+</script>
+<script type="text/babel" src="<?php echo get_template_directory_uri() . '/assets/js/example.js';?>">
 </body>
 </html>
