@@ -21502,7 +21502,7 @@
 	                { history: _reactRouter.browserHistory },
 	                _react2.default.createElement(
 	                    _reactRouter.Route,
-	                    { path: wobbegong.root, component: _MainLayout2.default },
+	                    { path: wobbegong.install, component: _MainLayout2.default },
 	                    _react2.default.createElement(_reactRouter.IndexRoute, { component: _Home2.default }),
 	                    _react2.default.createElement(_reactRouter.Route, { path: ':slug', component: _PageWrapper2.default })
 	                )

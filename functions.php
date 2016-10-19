@@ -22,3 +22,14 @@ function wob_scripts() {
 
 }
 add_action( 'wp_enqueue_scripts', 'wob_scripts' );
+
+function wob_setup() {
+
+    // This theme uses wp_nav_menu() in one location.
+    register_nav_menus( array(
+        'primary' => esc_html__( 'Primary', 'acstarter' ),
+        'sitemap' => esc_html__( 'Sitemap', 'acstarter' ),
+    ) );
+
+}
+add_action( 'after_setup_theme', 'wob_setup' );
