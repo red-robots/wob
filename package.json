@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.15.2",
     "jquery-scrollify": "^1.0.5",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
